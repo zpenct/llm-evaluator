@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+data/beaver-tails.csv
+data/beavertails_unsafe_human.json

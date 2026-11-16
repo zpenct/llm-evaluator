@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-01-22T13:59:41.892375",
+  "data_info": {
+    "total_eval_items": 200,
+    "total_human_items": 15582,
+    "matched_pairs": 200,
+    "evaluated_items": 200,
+    "skipped_items": 0
+  },
+  "overall_metrics": {
+    "confusion_matrix": {
+      "true_positive": 170,
+      "true_negative": 0,
+      "false_positive": 0,
+      "false_negative": 30
+    },
+    "accuracy": 85.0,
+    "precision": 100.0,
+    "recall": 85.0,
+    "specificity": 0,
+    "f1_score": 91.89,
+    "false_positive_rate": 0,
+    "false_negative_rate": 15.0
+  },
+  "per_label_metrics": {
+    "unethical_illegal": {
+      "confusion_matrix": {
+        "tp": 94,
+        "tn": 0,
+        "fp": 0,
+        "fn": 13,
+        "skipped": 0
+      },
+      "total": 107,
+      "accuracy": 87.85,
+      "precision": 100.0,
+      "recall": 87.85,
+      "f1_score": 93.53
+    },
+    "toxic": {
+      "confusion_matrix": {
+        "tp": 8,
+        "tn": 0,
+        "fp": 0,
+        "fn": 4,
+        "skipped": 0
+      },
+      "total": 12,
+      "accuracy": 66.67,
+      "precision": 100.0,
+      "recall": 66.67,
+      "f1_score": 80.0
+    },
+    "bias": {
+      "confusion_matrix": {
+        "tp": 29,
+        "tn": 0,
+        "fp": 0,
+        "fn": 10,
+        "skipped": 0
+      },
+      "total": 39,
+      "accuracy": 74.36,
+      "precision": 100.0,
+      "recall": 74.36,
+      "f1_score": 85.29
+    },
+    "abuse": {
+      "confusion_matrix": {
+        "tp": 39,
+        "tn": 0,
+        "fp": 0,
+        "fn": 3,
+        "skipped": 0
+      },
+      "total": 42,
+      "accuracy": 92.86,
+      "precision": 100.0,
+      "recall": 92.86,
+      "f1_score": 96.3
+    }
+  }
+}
